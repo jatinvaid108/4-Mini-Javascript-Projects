@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.button{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 1px;
+    position: relative;
+    margin: 0;
+    gap: 1rem;
+   
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: rgb(11, 11, 218);
+}
+#white{
+    background-color: white;
+}
+#gray{
+    background-color: gray;
+}
+
+.content {
+    width: 100%; /* Ensure content spans full width */
+    text-align: center; /* Center-align the content text */
+    margin-top: 1rem; /* Add spacing above the content */
+    font-size: 1rem;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      gap: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .project-card h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    .project-card p {
+      font-size: 1rem;
+    }
+
+    .project-card img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 1rem;
+      border-radius: 50%;
+      border: 2px solid #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Check Out Some Fun Mini Projects</h1>
+    <div class="projects">
+      <a href="BMI Calculator/index.html" class="project-card">
+        <img src="BMI Calculator/img.png" alt="BMI Calculator">
+        <h2>BMI Calculator</h2>
+        <p>Calculate your BMI quickly!</p>
+      </a>
+      <a href="Color Changer/index.html" class="project-card">
+        <img src="Color Changer/img.png" alt="Color Changer">
+        <h2>Color Changer</h2>
+        <p>Switch to fun colors.</p>
+      </a>
+      <a href="Digital Clock/index.html" class="project-card">
+        <img src="Digital Clock/img.png" alt="Digital Clock">
+        <h2>Digital Clock</h2>
+        <p>Check the current time.</p>
+      </a>
+      <a href="Number Guess/index.html" class="project-card">
+        <img src="Number Guess/img.png" alt="Number Guess Game">
+        <h2>Number Guess Game</h2>
+        <p>Guess the secret number!</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
